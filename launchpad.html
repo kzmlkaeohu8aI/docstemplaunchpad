@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Template Directory</title>
+    <style>
+        :root {
+            --bg-color: #0f1115;
+            --card-bg: #1a1d24;
+            --text-primary: #f0f3f6;
+            --text-secondary: #8b949e;
+            --accent: #58a6ff;
+            --border: #30363d;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+        }
+
+        .header {
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin: 0 0 8px 0;
+        }
+
+        p.subtitle {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin: 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px;
+            text-decoration: none;
+            color: var(--text-primary);
+            transition: all 0.2s ease-in-out;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            border-color: var(--accent);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h2 {
+            font-size: 16px;
+            font-weight: 600;
+            margin: 0 0 8px 0;
+        }
+
+        .card p {
+            color: var(--text-secondary);
+            font-size: 13px;
+            margin: 0;
+        }
+
+        .badge {
+            margin-top: 16px;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--accent);
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Internal Document Templates</h1>
+        <p class="subtitle">Select a platform below to generate a new branded document.</p>
+    </div>
+
+    <div class="grid">
+        <!-- Vibeoks -->
+        <a href="https://docs.google.com/document/d/1m44GEH45Y-wURV7VHndwQMqhLBzd2Sla6AWD_f4ATFc/template/preview" target="_blank" class="card">
+            <h2>Vibeoks</h2>
+            <p>Master template for Vibeoks project requirements and architectures.</p>
+            <span class="badge">Create Doc ↗</span>
+        </a>
+
+        <!-- StudyKode -->
+        <a href="https://docs.google.com/document/d/13qZmoh5bzeDGBvtP-usGaxu2grIYdAvd-k4_Jt59UMI/template/preview" target="_blank" class="card">
+            <h2>StudyKode</h2>
+            <p>Master template for StudyKode platform features and planning.</p>
+            <span class="badge">Create Doc ↗</span>
+        </a>
+
+        <!-- StickyKodes -->
+        <a href="https://docs.google.com/document/d/1mGIY1_xq_rDAwmuzboS9sZAKirPjLMU_twSB8nzzkI8/template/preview" target="_blank" class="card">
+            <h2>StickyKodes</h2>
+            <p>Master template for StickyKodes consumer SaaS operations.</p>
+            <span class="badge">Create Doc ↗</span>
+        </a>
+
+        <!-- Redoks -->
+        <a href="https://docs.google.com/document/d/1DW97KBQ56bBXEbPNnyJu-FLpuksd7Om5BXXKLYmu2JA/template/preview" target="_blank" class="card">
+            <h2>Redoks</h2>
+            <p>Master template for Redoks digital interactions and planning.</p>
+            <span class="badge">Create Doc ↗</span>
+        </a>
+
+        <!-- OneGlo -->
+        <a href="https://docs.google.com/document/d/1miAjuXeUG1ZXdYsiDlw6TeAFb-iOL4f7cYKlRhbr-Fk/template/preview" target="_blank" class="card">
+            <h2>OneGlo</h2>
+            <p>Master template for OneGlo identity provider and ecosystem bridging.</p>
+            <span class="badge">Create Doc ↗</span>
+        </a>
+
+        <!-- Impellix -->
+        <a href="https://docs.google.com/document/d/1PfIFWvZvoQq8kFbssQ5EVm29d6NO2x29KS0dvZ7RuOs/template/preview" target="_blank" class="card">
+            <h2>Impellix</h2>
+            <p>Master template for Impellix CIM architectures.</p>
+            <span class="badge">Create Doc ↗</span>
+        </a>
+
+        <!-- hArfxai -->
+        <a href="https://docs.google.com/document/d/1JN-HuYzGLrhV9k6qAW_6LF8cOZ2TYmSfE_7rGvUve30/template/preview" target="_blank" class="card">
+            <h2>hArfxai</h2>
+            <p>Master template for hArfxai AI research and technical RFCs.</p>
+            <span class="badge">Create Doc ↗</span>
+        </a>
+
+        <!-- GVS Holding -->
+        <a href="https://docs.google.com/document/d/1pmExU_dy_WqLWk08FUSGAPsocq2bcOjx8LXVQptN5eY/template/preview" target="_blank" class="card">
+            <h2>GVS Holding</h2>
+            <p>Restricted template for GVS corporate memos and structures.</p>
+            <span class="badge">Create Doc ↗</span>
+        </a>
+
+        <!-- EDITxr -->
+        <a href="https://docs.google.com/document/d/1ajTDjc7FS8kGLLlMGMUe9FgbacDxO-97XnsDgc9xybk/template/preview" target="_blank" class="card">
+            <h2>EDITxr</h2>
+            <p>Master template for EDITxr standalone platform documentation.</p>
+            <span class="badge">Create Doc ↗</span>
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
